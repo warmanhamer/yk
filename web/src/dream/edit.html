@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../icon/iconfont.css">
+		<link rel="stylesheet" href="../css/add.css">
+		<script src="../js/libs/flexible.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<header>
+				<i class="iconfont icon-back"></i>
+				<h1 class="title">新增地址</h1>
+				<span></span>
+			</header>
+			<section>
+				<p>
+					<input type="text" placeholder="姓名">
+				</p>
+				<p>
+					<input type="text" placeholder="手机号">
+				</p>
+				<p>
+					<input type="text" placeholder="固定电话">
+				</p>
+				<p>
+					<input type="text" placeholder="省市区">
+				</p>
+				<p>
+					<input type="text" placeholder="详细地址">
+				</p>
+			</section>
+			<footer><button class="end">完成</button></footer>
+		</div>
+		<script src="../js/libs/require.js"></script>
+		<script>
+			require(["../js/main"], function() {
+				require(["add"])
+			})
+		</script>
+	</body>
+
+</html>

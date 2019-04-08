@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="icon/iconfont.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/libs/flexible.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>地址管理</header>
+			<section class="scroll">
+				<div class="list">
+					<div>
+						<!-- <li>
+							<div class="title">
+								<h3>${item.name}</h3>
+								<span>${item.tel}</span>
+							</div>
+							<p class="main">
+								${item.ad},${item.xxad}
+							</p>
+							<p>
+								<span class="check">
+									<input name="radio" type="radio" checked>
+									<label>设置默认</label>
+								</span>
+								<span>
+									<b>删除</b>
+									<b>修改</b>
+								</span>
+							</p>
+						</li> -->
+					</div>
+					<div>
+			</section>
+			<footer><button class="add">新建地址</button></footer>
+		</div>
+		<script src="js/libs/require.js"></script>
+		<script>
+			require(["./js/main"], function() {
+				require(["index"])
+			})
+		</script>
+	</body>
+</html>
